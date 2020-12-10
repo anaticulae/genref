@@ -20,7 +20,7 @@ with open(os.path.join(ROOT, 'README.md'), mode='rt', encoding=UTF8) as fp:
     README = fp.read()
 
 with open(
-        os.path.join(ROOT, 'genex_reference/__init__.py'), mode='rt',
+        os.path.join(ROOT, 'genref/__init__.py'), mode='rt',
         encoding=UTF8) as fp:
     VERSION = re.search(r'__version__ = \'(.*?)\'', fp.read()).group(1)
 
@@ -39,9 +39,9 @@ if __name__ == "__main__":
         description='keep it simple',
         install_requires=INSTALL_REQUIRES,
         long_description=README,
-        name='genex_reference',
+        name='genref',
         platforms='any',
-        url='https://dev.package.checkitweg.de/genex_reference',
+        url='https://dev.package.checkitweg.de/genref',
         version=VERSION,
         zip_safe=False,  # create 'zip'-file if True. Don't do it!
         classifiers=[
@@ -50,6 +50,6 @@ if __name__ == "__main__":
             'Programming Language :: Python :: 3.8',
         ],
         packages=[
-            'genex_reference',
+            'genref',
         ],
     )
