@@ -10,11 +10,11 @@
 import genex
 import power
 
-import genex_reference
+import genref
 
 
 def test_generator_run(testdir):
-    power.setup(genex_reference.ROOT)
+    power.setup(genref.ROOT)
     files = [power.TECH019_PDF, power.REPOSITORY]
     genex.extract(
         files=files,
