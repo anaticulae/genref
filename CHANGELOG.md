@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.0.5
+
+### Fix
+
+* fix import according to v1.0.0 refactoring (05539e92bb4c)
+
 ## v1.0.4
 
 ## v1.0.3
