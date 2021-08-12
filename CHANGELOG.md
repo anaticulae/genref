@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.1.0
+
+### Feature
+
+* add figureo (142583ddd2c8)
+
 ## v1.0.9
 
 ## v1.0.8
