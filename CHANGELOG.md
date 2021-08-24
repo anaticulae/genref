@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.2.0
+
+### Feature
+
+* add formulero (2e237a6ceb96)
+
 ## v1.1.2
 
 ## v1.1.1
