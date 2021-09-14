@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.3.0
+
+### Feature
+
+* add codero (f750c1f1caf2)
+
 ## v1.2.0
 
 ### Feature
