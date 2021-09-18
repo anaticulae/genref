@@ -7,7 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-rawmaker>=2.24.6<3.0.0
+rawmaker>=2.25.0<3.0.0
 groupme>=0.15.0<1.0.0
 hey>=5.12.0<6.0.0
 detector>=0.27.1<1.0.0
@@ -18,4 +18,4 @@ smarty>=0.2.1<1.0.0
 tablero>=0.6.0<1.0.0
 figureo>=0.8.1<1.0.0
 formulero>=0.2.0<1.0.0
-codero>=0.1.0<1.0.0
+codero>=0.2.0<1.0.0
