@@ -15,9 +15,12 @@ import genref
 
 def test_generator_run(testdir):
     power.setup(genref.ROOT)
-    files = [power.TECH019_PDF, power.REPOSITORY]
+    files = [
+        power.TECH019_PDF,
+    ]
     genex.extract(
         files=files,
         destination=testdir.tmpdir,
         full=True,
+        base=power.REPOSITORY,
     )
