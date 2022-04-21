@@ -4,8 +4,6 @@ Every noteable change is logged here.
 
 ## v1.3.2
 
-## v1.3.1
-
 ## v1.3.0
 
 ### Feature
@@ -18,21 +16,11 @@ Every noteable change is logged here.
 
 * add formulero (2e237a6ceb96)
 
-## v1.1.2
-
-## v1.1.1
-
 ## v1.1.0
 
 ### Feature
 
 * add figureo (142583ddd2c8)
-
-## v1.0.9
-
-## v1.0.8
-
-## v1.0.7
 
 ## v1.0.6
 
@@ -46,17 +34,4 @@ Every noteable change is logged here.
 
 * fix import according to v1.0.0 refactoring (05539e92bb4c)
 
-## v1.0.4
-
-## v1.0.3
-
-## v1.0.2
-
-## v1.0.1
-
-## v1.0.0
-
-## v0.1.0
-
 ## v0.0.0 Initial release
-
