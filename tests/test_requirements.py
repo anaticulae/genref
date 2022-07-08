@@ -20,7 +20,6 @@ def test_generator_run(testdir):
     ]
     genex.extract(
         files=files,
-        destination=testdir.tmpdir,
+        dest=testdir.tmpdir,
         full=True,
-        base=power.REPOSITORY,
     )
