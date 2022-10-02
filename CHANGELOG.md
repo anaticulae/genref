@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.3.8 (2022-10-02)
+
+### Chore
+
+* add reftable (2f223414d861)
+
 ## v1.3.7 (2022-10-01)
 
 ### Chore
