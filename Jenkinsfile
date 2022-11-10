@@ -23,16 +23,6 @@ pipeline {
                 sh 'baw test docs -n1'
             }
         }
-        stage('fast'){
-            steps{
-                sh 'baw test fast -n5'
-            }
-        }
-        stage('long'){
-            steps{
-                sh 'baw test long -n8'
-            }
-        }
         stage('lint'){
             steps{
                 sh 'baw lint'
