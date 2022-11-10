@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v1.3.9 (2022-11-10)
+
+### Chore
+
+* add missing chapter (200030d46a44)
+* remove unused tests (aee775bd8eee)
+* convert nightly to all (c739db1f7540)
+* upgrade environment (600746881999)
+* upgrade requirements.txt (31945113eb60)
+* do not run in privileged mode (366e852e166f)
+
 ## v1.3.8 (2022-10-02)
 
 ### Chore
