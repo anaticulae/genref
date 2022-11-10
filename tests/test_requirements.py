@@ -16,13 +16,13 @@ import genref
 
 
 @pytest.mark.skipif(not ghost.HAS_GHOST, reason='require ghost')
-def test_generator_run(testdir):
+def test_generator_run(td):
     power.setup(genref.ROOT)
     files = [
         power.TECH019_PDF,
     ]
     genex.extract(
         files=files,
-        dest=testdir.tmpdir,
+        dest=td.tmpdir,
         full=True,
     )
