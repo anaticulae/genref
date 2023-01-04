@@ -8,14 +8,11 @@
 # =============================================================================
 
 import genex
-import ghost
 import power
-import pytest
 
 import genref
 
 
-@pytest.mark.skipif(not ghost.HAS_GHOST, reason='require ghost')
 def test_generator_run(td):
     power.setup(genref.ROOT)
     files = [
