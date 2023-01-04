@@ -2,6 +2,19 @@
 
 Every noteable change is logged here.
 
+## v1.3.11 (2023-01-04)
+
+### Documentation
+
+* happy New Year! (b9580ee91452)
+
+### Chore
+
+* add bibliography (daf1e8914b3f)
+* use quick install (06eac29506e8)
+* upgrade requirements.txt (b5ef804dfff6)
+* upgrade pipeline (994b104ad828)
+
 ## v1.3.10 (2022-11-10)
 
 ### Chore
