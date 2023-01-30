@@ -22,4 +22,5 @@ def test_generator_run(td):
         files=files,
         dest=td.tmpdir,
         full=True,
+        pages='0:10',
     )
