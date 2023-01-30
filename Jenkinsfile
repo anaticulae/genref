@@ -51,9 +51,9 @@ pipeline{
         stage('pre'){
             steps{script{baw.pre()}}
         }
-        stage('all'){
+        stage('cov'){
             steps{
-                script{baw.all()}
+                script{baw.cov(1)}
             }
         }
         stage('release'){
