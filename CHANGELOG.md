@@ -2,6 +2,20 @@
 
 Every noteable change is logged here.
 
+## v1.4.0 (2023-01-30)
+
+### Feature
+
+* add sections_ref (89806bb94268)
+
+### Chore
+
+* convert to cov step (201f63c0ae84)
+* upgrade requirements.txt (6bb7c4e8288c)
+* shorten step name (047ae372cef7)
+* upgrade Jenkinsfile (5395f594b4cf)
+* upgrade pipe library (197277d2efcf)
+
 ## v1.3.12 (2023-01-09)
 
 ### Chore
