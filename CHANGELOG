@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v1.4.2 (2026-09-20)
+
+### Chores
+
+- **workflows**: Upgrade actions
+  ([`fafb8fd`](https://github.com/anaticulae/genref/commit/fafb8fddbc8f7f310dcf7bc4ff6e7a20d7b95675))
+
+### Documentation
+
+- **pyproject**: Adjust project description
+  ([`2befb81`](https://github.com/anaticulae/genref/commit/2befb813374e6e7156df34c5af842f7e9483fc85))
+
+
 ## v1.4.1 (2026-09-20)
 
 ### Chores

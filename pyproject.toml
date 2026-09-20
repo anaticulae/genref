@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "genref"
-version = "1.4.1"
+version = "1.4.2"
 description = "Do not repeat dependencies in every project."
 requires-python = ">=3.12"
 authors = [
