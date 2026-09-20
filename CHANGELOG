@@ -1,114 +1,427 @@
-# Changelog
+# CHANGELOG
 
-Every noteable change is logged here.
+
+## v1.4.1 (2026-09-20)
+
+### Chores
+
+- **github**: Add .github
+  ([`e62cec8`](https://github.com/anaticulae/genref/commit/e62cec8035302e35b9c9e3ec8e45b296b2f91a4e))
+
+- **pyproject**: Add modern layout
+  ([`32b42ae`](https://github.com/anaticulae/genref/commit/32b42aeca7e705ee2eb5ffa97c0e431a0e1f3ccf))
+
+- **readme**: Adjust file names
+  ([`2721b22`](https://github.com/anaticulae/genref/commit/2721b2299a1663601ae619c48259c112f7671a29))
+
+- **refactor**: Adjust package names
+  ([`215e215`](https://github.com/anaticulae/genref/commit/215e2157b33d9daa14d829367024637647e94177))
+
+### Testing
+
+- **gen**: Reduce page count
+  ([`39b895d`](https://github.com/anaticulae/genref/commit/39b895d6dba8d364d61812c3c975dfa73504d04b))
+
 
 ## v1.4.0 (2023-01-30)
 
-### Feature
+### Chores
 
-* add sections_ref (89806bb94268)
+- **Jenkins**: Convert to cov step
+  ([`201f63c`](https://github.com/anaticulae/genref/commit/201f63c0ae84e52ac85ffb57670b94d61ea69da7))
 
-### Chore
+- **Jenkins**: Shorten step name
+  ([`047ae37`](https://github.com/anaticulae/genref/commit/047ae372cef790ab0576c6f0a8a35a68b8547927))
 
-* convert to cov step (201f63c0ae84)
-* upgrade requirements.txt (6bb7c4e8288c)
-* shorten step name (047ae372cef7)
-* upgrade Jenkinsfile (5395f594b4cf)
-* upgrade pipe library (197277d2efcf)
+- **Jenkins**: Upgrade Jenkinsfile
+  ([`5395f59`](https://github.com/anaticulae/genref/commit/5395f594b4cf7dbce46f5fdbe199f5a3f9f139e2))
+
+- **Jenkins**: Upgrade pipe library
+  ([`197277d`](https://github.com/anaticulae/genref/commit/197277d2efcf6f86cf0f0611e4a7dacdce11e3a6))
+
+- **requirements**: Upgrade requirements.txt
+  ([`6bb7c4e`](https://github.com/anaticulae/genref/commit/6bb7c4e8288cc4c3dbf078374ac76c753d81fc61))
+
+### Features
+
+- **requirements**: Add sections_ref
+  ([`89806bb`](https://github.com/anaticulae/genref/commit/89806bb9426862a6135f13b0c1e476f51cc85084))
+
 
 ## v1.3.12 (2023-01-09)
 
-### Chore
+### Chores
 
-* upgrade requirements.txt (0943198af9f8)
-* upgrade Jenkinsfile (b452446bbce6)
+- **Jenkins**: Upgrade Jenkinsfile
+  ([`b452446`](https://github.com/anaticulae/genref/commit/b452446bbce62b1bd1e2e416258f60d35245ff72))
+
+- **requirements**: Upgrade requirements.txt
+  ([`0943198`](https://github.com/anaticulae/genref/commit/0943198af9f88883834cc98303846bdfced16503))
+
 
 ## v1.3.11 (2023-01-04)
 
+### Chores
+
+- **Jenkins**: Upgrade pipeline
+  ([`994b104`](https://github.com/anaticulae/genref/commit/994b104ad828d9cfc12cc5e1da21a4871a907215))
+
+- **requirements**: Add bibliography
+  ([`daf1e89`](https://github.com/anaticulae/genref/commit/daf1e8914b3f0b72f9f5c48a6a738c638febddb7))
+
+- **requirements**: Upgrade requirements.txt
+  ([`b5ef804`](https://github.com/anaticulae/genref/commit/b5ef804dfff69c1cfdbd6b0e194e81e2e18d6087))
+
+- **setup**: Use quick install
+  ([`06eac29`](https://github.com/anaticulae/genref/commit/06eac29506e8b07aa3be48e4f60c261d16ef8d5c))
+
 ### Documentation
 
-* happy New Year! (b9580ee91452)
+- **copyright**: Happy New Year!
+  ([`b9580ee`](https://github.com/anaticulae/genref/commit/b9580ee91452ffafd6b7407329bca0b9235a0cd0))
 
-### Chore
+### Testing
 
-* add bibliography (daf1e8914b3f)
-* use quick install (06eac29506e8)
-* upgrade requirements.txt (b5ef804dfff6)
-* upgrade pipeline (994b104ad828)
+- **requirements**: Ghost is done
+  ([`8168ad4`](https://github.com/anaticulae/genref/commit/8168ad46458cbdb40850581da6421fc5c9a26854))
+
 
 ## v1.3.10 (2022-11-10)
 
-### Chore
+### Chores
 
-* upgrade requirements.txt (7b3d37708873)
+- **requirements**: Upgrade requirements.txt
+  ([`7b3d377`](https://github.com/anaticulae/genref/commit/7b3d3770887351e96115795ac5f9def48d602560))
+
 
 ## v1.3.9 (2022-11-10)
 
-### Chore
+### Chores
 
-* add missing chapter (200030d46a44)
-* remove unused tests (aee775bd8eee)
-* convert nightly to all (c739db1f7540)
-* upgrade environment (600746881999)
-* upgrade requirements.txt (31945113eb60)
-* do not run in privileged mode (366e852e166f)
+- **Jenkins**: Convert nightly to all
+  ([`c739db1`](https://github.com/anaticulae/genref/commit/c739db1f7540e099d615a7d218d51c0b1981107b))
+
+- **Jenkins**: Remove unused tests
+  ([`aee775b`](https://github.com/anaticulae/genref/commit/aee775bd8eee3cf6fdcd375d60775fb522719bb3))
+
+- **Jenkins**: Upgrade environment
+  ([`6007468`](https://github.com/anaticulae/genref/commit/600746881999f0ccac721bd7f414fb5ec7c5f41c))
+
+- **Jenkinsfile**: Do not run in privileged mode
+  ([`366e852`](https://github.com/anaticulae/genref/commit/366e852e166fca31dc490d6a13d70be63e6640cf))
+
+- **requirements**: Upgrade requirements.txt
+  ([`3194511`](https://github.com/anaticulae/genref/commit/31945113eb60d503ffe80c7db6c13a28db4d48ea))
+
+- **resources**: Add missing chapter
+  ([`200030d`](https://github.com/anaticulae/genref/commit/200030d46a4499bc51782c2549b186e78482dfac))
+
+### Code Style
+
+- **baw**: Add missing header
+  ([`4dd02f9`](https://github.com/anaticulae/genref/commit/4dd02f9494565239899fd30bfa45277359dd3a77))
+
+- **baw**: Format code
+  ([`5584f0d`](https://github.com/anaticulae/genref/commit/5584f0de122bbbabc3c8b7a645fdf7db11763a9c))
+
+### Refactoring
+
+- **replace**: Automated replacement
+  ([`bba5106`](https://github.com/anaticulae/genref/commit/bba51062289cbfe6cb948b2fe21293356db154bb))
+
 
 ## v1.3.8 (2022-10-02)
 
-### Chore
+### Chores
 
-* add reftable (2f223414d861)
+- **requirements**: Add reftable
+  ([`2f22341`](https://github.com/anaticulae/genref/commit/2f223414d861db97d18a9d2b1af4cf65b9ebc61c))
+
 
 ## v1.3.7 (2022-10-01)
 
-### Chore
+### Chores
 
-* add Jenkinsfile (538330571e7a)
-* upgrade requirements.txt (a9d7086fa163)
+- **ci**: Add Jenkinsfile
+  ([`5383305`](https://github.com/anaticulae/genref/commit/538330571e7a7ce387c0574ed741ee6c6ab79d69))
 
-## v1.3.6
+- **requirements**: Upgrade requirements.txt
+  ([`a9d7086`](https://github.com/anaticulae/genref/commit/a9d7086fa1634b0b86b221bcd293d99814114e95))
 
-## v1.3.5
+### Code Style
 
-## v1.3.4
+- **changelog**: Adjust release automation tool
+  ([`763d251`](https://github.com/anaticulae/genref/commit/763d2518699ffa136ba9909b845fad9776b89d48))
 
-## v1.3.3
+### Testing
+
+- **skip**: Skip test if ghost is not installed
+  ([`9af189c`](https://github.com/anaticulae/genref/commit/9af189cdfb9a6105c3b50c007c68b350755cc8a2))
+
+
+## v1.3.6 (2022-08-01)
+
+### Chores
+
+- **requirements**: Add cleanup
+  ([`cb277ee`](https://github.com/anaticulae/genref/commit/cb277ee95780c2d48e7ff029df52440d6925aabd))
+
+- **requirements**: Add headline package
+  ([`796c823`](https://github.com/anaticulae/genref/commit/796c8233be807fb4b819dfc3b1fc53f9e7a93d79))
+
+- **requirements**: Add more specific header/footer packages
+  ([`2c36b71`](https://github.com/anaticulae/genref/commit/2c36b71e364bc9a1969b7f9c5fbbd594b07339cc))
+
+- **requirements**: Add pdfinfo
+  ([`7296d2c`](https://github.com/anaticulae/genref/commit/7296d2c86572556e41c00b30332f04b0bac34721))
+
+- **requirements**: Upgrade requirements.txt
+  ([`45416d8`](https://github.com/anaticulae/genref/commit/45416d8ab57bdd6819c9bbacae9506b83404f39e))
+
+- **requirements**: Upgrade requirements.txt
+  ([`858adfd`](https://github.com/anaticulae/genref/commit/858adfd33898fb7cb7a946d37dbd28f6463fb3eb))
+
+
+## v1.3.5 (2022-07-08)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`963d02f`](https://github.com/anaticulae/genref/commit/963d02f7e881c3eb9646b9c8382b44c88126452d))
+
+### Testing
+
+- **adjust**: Remove default behavior
+  ([`3f0875d`](https://github.com/anaticulae/genref/commit/3f0875dc42c274943d1ffbd83824fd3d3fcc987f))
+
+
+## v1.3.4 (2022-06-19)
+
+### Chores
+
+- **config**: Add missing configo
+  ([`970e096`](https://github.com/anaticulae/genref/commit/970e09673b920ad20b5bd4ea1b11c7d175da6c62))
+
+- **requirements**: Add lists
+  ([`a008ca2`](https://github.com/anaticulae/genref/commit/a008ca25dcd9114518576e55541f9bd019d5cba7))
+
+- **requirements**: Upgrade requirements.txt
+  ([`fd6ddf6`](https://github.com/anaticulae/genref/commit/fd6ddf6efe26f8edadff715bd2dd68989fcb4c1c))
+
+
+## v1.3.3 (2022-04-21)
+
+### Chores
+
+- **requirements**: Add caption
+  ([`7690485`](https://github.com/anaticulae/genref/commit/769048532aeb73dbea98a8194fd0f1f9ffa621c0))
+
+- **requirements**: Upgrade requirements.txt
+  ([`724fdae`](https://github.com/anaticulae/genref/commit/724fdae8cb651010781f2f727afa3d186dbef348))
+
+### Code Style
+
+- **changelog**: Cleanup empty version
+  ([`9e66c93`](https://github.com/anaticulae/genref/commit/9e66c93400fd46794b73432f443597e4c8a4eac3))
 
 ### Documentation
 
-* adjust modules path (75b0387b08ac)
-* Happy New Year! (b66ba525914a)
+- **copyright**: Happy New Year!
+  ([`b66ba52`](https://github.com/anaticulae/genref/commit/b66ba525914a6bd0c2981afcc528503de1da5dfd))
 
-## v1.3.2
+- **fix**: Adjust modules path
+  ([`75b0387`](https://github.com/anaticulae/genref/commit/75b0387b08ac00f5148e3d2ed6de7a4d3035a740))
 
-## v1.3.0
 
-### Feature
+## v1.3.2 (2021-12-07)
 
-* add codero (f750c1f1caf2)
+### Chores
 
-## v1.2.0
+- **config**: Move project config
+  ([`0e6b232`](https://github.com/anaticulae/genref/commit/0e6b232be7beb7f898851de6103bfab4fc51e93f))
 
-### Feature
+- **requirements**: Upgrade requirements.txt
+  ([`b17555f`](https://github.com/anaticulae/genref/commit/b17555fe63398835a1aa13b2eff9424176786c1c))
 
-* add formulero (2e237a6ceb96)
+### Testing
 
-## v1.1.0
+- **fix**: Fix generator invocation
+  ([`6742293`](https://github.com/anaticulae/genref/commit/6742293832d7675fd9fe4a3f0dc75ef068148fc4))
 
-### Feature
 
-* add figureo (142583ddd2c8)
+## v1.3.1 (2021-09-18)
 
-## v1.0.6
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`3ffa21a`](https://github.com/anaticulae/genref/commit/3ffa21ae99d4ef8551a59f50a2cb04295d895420))
+
+
+## v1.3.0 (2021-09-14)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`2a65cc1`](https://github.com/anaticulae/genref/commit/2a65cc17f0f0bec5eb817b08925650bc51626827))
+
+### Features
+
+- **requirements**: Add codero
+  ([`f750c1f`](https://github.com/anaticulae/genref/commit/f750c1f1caf249f7f0df612834ab1336133f23a1))
+
+
+## v1.2.0 (2021-08-25)
+
+### Features
+
+- **requirements**: Add formulero
+  ([`2e237a6`](https://github.com/anaticulae/genref/commit/2e237a6ceb96b63122d387b698fdaf970a070b6f))
+
+
+## v1.1.2 (2021-08-22)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`d47bb75`](https://github.com/anaticulae/genref/commit/d47bb7510225ea94501e5a03558faaef06bccb8f))
+
+
+## v1.1.1 (2021-08-15)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`eccba21`](https://github.com/anaticulae/genref/commit/eccba2133c7572259acfed8a854b2804be1842b9))
+
+
+## v1.1.0 (2021-08-12)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`35434e3`](https://github.com/anaticulae/genref/commit/35434e32e8fe35ae1f80b80d2ed365e071d328e8))
+
+### Features
+
+- **reference**: Add figureo
+  ([`142583d`](https://github.com/anaticulae/genref/commit/142583ddd2c8cf26fde607673b5d464537c5e8e2))
+
+
+## v1.0.9 (2021-07-18)
+
+### Chores
+
+- **requirements**: Add tablero
+  ([`2311c09`](https://github.com/anaticulae/genref/commit/2311c0963403bba14f330eb978760abaec0ebe42))
+
+- **requirements**: Upgrade requirements.txt
+  ([`7c7a698`](https://github.com/anaticulae/genref/commit/7c7a6986571e11f22eef7239d8979ef02a8d8138))
+
+
+## v1.0.8 (2021-07-06)
+
+### Chores
+
+- **requirements**: Change after splitting words
+  ([`b5ab4a3`](https://github.com/anaticulae/genref/commit/b5ab4a318049964c2e9fef02c9d7d5d2558be88e))
+
+- **requirements**: Upgrade requirements.txt
+  ([`c49347b`](https://github.com/anaticulae/genref/commit/c49347b9aac1e02b0160b75183f817041b93d8f8))
+
+
+## v1.0.7 (2021-06-28)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`e98866c`](https://github.com/anaticulae/genref/commit/e98866c1ec00cb843ba2cffa7b51f2271c2bac81))
+
+### Code Style
+
+- **refactor**: Cleanup setup file
+  ([`b688daa`](https://github.com/anaticulae/genref/commit/b688daa2f5984db2639e98fd7665e57d035598f8))
+
+
+## v1.0.6 (2021-06-28)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`48855c5`](https://github.com/anaticulae/genref/commit/48855c5cf72a010b6d3b0ae89f48e4e769645b0b))
 
 ### Documentation
 
-* Happy New Year! (0cb98c8c083f)
+- **copyright**: Happy New Year!
+  ([`0cb98c8`](https://github.com/anaticulae/genref/commit/0cb98c8c083f1f72a888d9cba98e217a02935a5f))
 
-## v1.0.5
 
-### Fix
+## v1.0.5 (2021-03-11)
 
-* fix import according to v1.0.0 refactoring (05539e92bb4c)
+### Bug Fixes
 
-## v0.0.0 Initial release
+- **import**: Fix import according to v1.0.0 refactoring
+  ([`05539e9`](https://github.com/anaticulae/genref/commit/05539e92bb4c81b133811c1686849b33cabe64fd))
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`159252e`](https://github.com/anaticulae/genref/commit/159252eafbf69f1fbef6b84b86fa4f8fc9d89041))
+
+
+## v1.0.4 (2021-02-19)
+
+### Chores
+
+- **requirements**: Fix sections upper requirement limit
+  ([`64d5f4b`](https://github.com/anaticulae/genref/commit/64d5f4bfdb53c3d3e0155515b97f794c93de6606))
+
+- **requirements**: Upgrade requirements.txt
+  ([`17b4a1f`](https://github.com/anaticulae/genref/commit/17b4a1ff5ce482c62b631dcc46dce5e9375b4747))
+
+
+## v1.0.3 (2021-02-15)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`b4828b5`](https://github.com/anaticulae/genref/commit/b4828b52051cd3fba935ed93c6c9355ed1bf55b8))
+
+
+## v1.0.2 (2021-02-05)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`94d77fc`](https://github.com/anaticulae/genref/commit/94d77fc708f58a5cd3687449c860a771224dd01d))
+
+
+## v1.0.1 (2021-01-20)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`af25497`](https://github.com/anaticulae/genref/commit/af25497dd55c8a693adc2e09adee515aeebc6063))
+
+
+## v1.0.0 (2020-12-10)
+
+
+## v0.1.0 (2020-12-10)
+
+### Chores
+
+- **requirements**: Add genex generator
+  ([`0d26a19`](https://github.com/anaticulae/genref/commit/0d26a19884c10ad2f0ba80f141e36c42c98cf18e))
+
+- **requirements**: Add requirements to run complete genex
+  ([`14ef2d7`](https://github.com/anaticulae/genref/commit/14ef2d7fa3c43fb0c2c36e579f70e06739945016))
+
+### Testing
+
+- **requirements**: Add test to verify requirements in virtual environment
+  ([`3ab46fd`](https://github.com/anaticulae/genref/commit/3ab46fdaa23c93869e140af0cd06bb68168251f2))
+
+
+## v0.0.0 (2020-12-10)
+
+- Initial Release
