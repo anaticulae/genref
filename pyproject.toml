@@ -25,7 +25,6 @@ dependencies = [
     "figureo==1.0.1",
     "formulero==1.0.0",
     "headnote==1.0.3",
-    "hoverpower==1.7.0",
     "ibidem==1.0.2",
     "indagator==1.0.2",
     "indicibus==1.0.2",

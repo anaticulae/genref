@@ -7,18 +7,18 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import genex
-import power
+import gennex
+import hoverpower
 
 import genref
 
 
 def test_generator_run(td):
-    power.setup(genref.ROOT)
+    hoverpower.setup(genref.ROOT)
     files = [
-        power.TECH019_PDF,
+        hoverpower.TECH019_PDF,
     ]
-    genex.extract(
+    gennex.extract(
         files=files,
         dest=td.tmpdir,
         full=True,
