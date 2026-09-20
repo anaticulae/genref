@@ -1,0 +1,114 @@
+[build-system]
+requires = [
+    "setuptools>=83.0.0",
+    "wheel>=0.46.3",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genref"
+version = "1.4.0"
+description = "A simple console-application to manage project complexity."
+requires-python = ">=3.12"
+authors = [
+    { name = "Helmut Konrad Schewe", email = "helmutus@outlook.com" },
+]
+dependencies = [
+    "callidus==1.7.1",
+    "capita==1.25.3",
+    "capita_ref==1.0.1",
+    "captions>=1.0.1,<2.0.0",
+    "codero==1.0.1",
+    "configos>=1.0.4,<2.0.0",
+    "decider-chapter==1.0.1",
+    "elementae>=1.0.1,<2.0.0",
+    "figureo==1.0.1",
+    "formulero==1.0.0",
+    "headnote==1.0.3",
+    "hoverpower==1.7.0",
+    "ibidem==1.0.2",
+    "indagator==1.0.2",
+    "indicibus==1.0.2",
+    "jamer==1.0.2",
+    "konradus>=1.0.1,<2.0.0",
+    "mundare==1.0.2",
+    "pagenumber==1.0.0",
+    "protoerror>=3.20.4,<4.0.0",
+    "reftable==1.0.0",
+    "tablero==1.0.1",
+    "texes>=1.0.1,<2.0.0",
+    "titulum==1.0.2",
+    "upainter>=1.0.0,<2.0.0",
+    "verbo>=1.23.4,<2.0.0",
+    "writers>=1.7.1,<2.0.0",
+]
+keywords = []
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
+[project.readme]
+file = "README"
+content-type = "text/markdown"
+
+[project.optional-dependencies]
+dev = [
+    "utilotest==1.1.1",
+    "gennex==1.1.0",
+    "hoverpower==1.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/anaticulae/genref"
+Repository = "https://github.com/anaticulae/genref"
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:project.version",
+]
+
+[tool.semantic_release.changelog]
+mode = "init"
+output_format = "md"
+
+[tool.semantic_release.changelog.default_templates]
+changelog_file = "CHANGELOG"
+
+[tool.semantic_release.commit_parser_options]
+patch_tags = [
+    "build",
+    "chore",
+    "ci",
+    "deps",
+    "docs",
+    "fix",
+    "perf",
+    "refactor",
+    "style",
+    "test",
+]
+minor_tags = [
+    "feat",
+]
+
+[tool.setuptools.packages.find]
+where = [
+    ".",
+]
+include = [
+    "genref",
+]
+exclude = [
+    "tests*",
+]
+
+[tool.hoverpower]
+packages = [
+    "TECH",
+]

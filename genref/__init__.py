@@ -7,8 +7,9 @@
 # be prosecuted under federal law. Its content is company confidential.
 #==============================================================================
 
+import importlib.metadata
 import os
 
-__version__ = '1.4.0'
+__version__ = importlib.metadata.version('genref')
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
