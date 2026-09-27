@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v1.4.4 (2026-09-27)
+
+### Chores
+
+- **pyproject**: Add missing LICENSE
+  ([`1b7726a`](https://github.com/anaticulae/genref/commit/1b7726ac68c9628a980cfc4f9662ab3c69f824b9))
+
+- **pyproject**: Adjust project name
+  ([`0b448ee`](https://github.com/anaticulae/genref/commit/0b448ee851eebfe205c09a4cdc1616230ab70b2b))
+
+
 ## v1.4.3 (2026-09-27)
 
 ### Chores
