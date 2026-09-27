@@ -20,7 +20,7 @@ dependencies = [
     "captions>=1.0.1,<2.0.0",
     "codero==1.0.1",
     "configos>=1.0.4,<2.0.0",
-    "decider-chapter==1.0.1",
+    "decider-chapter>=1.0.1,<2.0.0",
     "elementae>=1.0.1,<2.0.0",
     "figureo==1.0.1",
     "formulero==1.0.0",
