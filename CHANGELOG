@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.4.3 (2026-09-27)
+
+### Chores
+
+- **pyproject**: Make dependency less strict
+  ([`493fc84`](https://github.com/anaticulae/genref/commit/493fc84319d775a7b7da3f9e1b108772ff40adba))
+
+
 ## v1.4.2 (2026-09-20)
 
 ### Chores
